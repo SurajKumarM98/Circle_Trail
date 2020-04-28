@@ -7,16 +7,11 @@ Creates a trail of circles which change colors when the mouse is clicked and dra
 
 **Rain**
 
-Create an endless wave of yellow rain.
+Create an endless wave of yellow rain haiving depth effect.
 
-**BubbleSort**
+**"Name"_Sort**
 
-Visualize the bubble sort algorithm.
-
-**MergeSort**
-
-Visualize the merge sort algorithm.
-
+Visualize how the particular sort algorithm works.
 
 **Instructions**
 
