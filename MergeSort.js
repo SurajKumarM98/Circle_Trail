@@ -25,7 +25,8 @@ async function mergesort(arr, start, end){
 
     let middle = Math.floor((start + end)/2);
 
-    await Promise.all([mergesort(arr, start, middle),mergesort(arr, middle+1, end)]);
+    await mergesort(arr, start, middle)    
+    await mergesort(arr, middle+1, end)]);
     await merge(arr, start, middle, end);
 }
 
